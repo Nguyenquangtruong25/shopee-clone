@@ -66,15 +66,15 @@ const Footer = () => {
                       <h3 className="font-semibold text-lg mb-4">Thanh toán</h3>
                       <div className="flex space-x-2 mb-4">
                           <img
-                              src="https://cf.shopee.vn/file/visa.png"
+                              src="https://down-vn.img.susercontent.com/file/d4bbea4570b93bfd5fc652ca82a262a8"
                               alt="Visa"
                               className="h-8" />
                           <img
-                              src="https://cf.shopee.vn/file/mastercard.png"
-                              alt="MasterCard"
+                              src="https://down-vn.img.susercontent.com/file/38fd98e55806c3b2e4535c4e4a6c4c08"
+                              alt="JCB"
                               className="h-8" />
                           <img
-                              src="https://cf.shopee.vn/file/cod.png"
+                              src="https://down-vn.img.susercontent.com/file/2c46b83d84111ddc32cfd3b5995d9281"
                               alt="COD"
                               className="h-8" />
                       </div>
@@ -82,19 +82,19 @@ const Footer = () => {
                       <div className="flex space-x-4">
                           <a href="https://facebook.com/shopee" target="_blank" rel="noopener noreferrer">
                               <img
-                                  src="https://via.placeholder.com/24x24.png?text=FB"
+                                  src="https://down-vn.img.susercontent.com/file/2277b37437aa470fd1c71127c6ff8eb5"
                                   alt="Facebook"
                                   className="h-6" />
                           </a>
                           <a href="https://instagram.com/shopee" target="_blank" rel="noopener noreferrer">
                               <img
-                                  src="https://via.placeholder.com/24x24.png?text=IG"
+                                  src="https://down-vn.img.susercontent.com/file/5973ebbc642ceee80a504a81203bfb91"
                                   alt="Instagram"
                                   className="h-6" />
                           </a>
                           <a href="https://youtube.com/shopee" target="_blank" rel="noopener noreferrer">
                               <img
-                                  src="https://via.placeholder.com/24x24.png?text=YT"
+                                  src="https://down-vn.img.susercontent.com/file/f4f86f1119712b553992a75493065d9a"
                                   alt="YouTube"
                                   className="h-6" />
                           </a>
@@ -109,7 +109,7 @@ const Footer = () => {
                       <p className="text-sm">Email: support@shopee.vn</p>
                       <p className="text-sm mt-4">Đã đăng ký với Bộ Công Thương</p>
                       <img
-                          src="https://via.placeholder.com/100x40.png?text=BoCongThuong"
+                          src="https://tse4.mm.bing.net/th/id/OIP.KCfy7WKnTXvnUARUTNX_owHaCQ?pid=Api&P=0&h=220"
                           alt="Bộ Công Thương"
                           className="h-10 mt-2" />
                   </div>
