@@ -66,13 +66,13 @@ Route::middleware(['web', 'auth'])->group(function () {
     Route::put('/cart/{id}', [CartItemController::class, 'update'])->name('cart.update');
     Route::delete('/cart/{id}', [CartItemController::class, 'destroy'])->name('cart.destroy');
 
-    // 🧹 Xóa toàn bộ giỏ hàng
+    // Xóa toàn bộ giỏ hàng
     Route::delete('/cart', [CartItemController::class, 'clear'])->name('cart.clear');
 
-    // 🔼🔽 Tăng / Giảm số lượng
+    // 🔼🔽 Tăng / Giảm sp
     Route::post('/cart/{id}/increase', [CartItemController::class, 'increase'])->name('cart.increase');
     Route::post('/cart/{id}/decrease', [CartItemController::class, 'decrease'])->name('cart.decrease');
 
-    // 💰 Tính tổng tiền riêng biệt
+    // tổng tiền sp
     Route::get('/cart/total', [CartItemController::class, 'total'])->name('cart.total');
 });

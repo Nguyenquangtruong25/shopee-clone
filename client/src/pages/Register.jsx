@@ -149,13 +149,27 @@ export default function Register() {
             <div id="button_bottom" className="social-buttons mt-4">
               <button className="bg-blue-600 text-white p-2 rounded flex items-center justify-center">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M22.675 0h-21.35c..."/>
+                  <path d="M279.14 288l14.22-92.66h-88.91V127.41c0-25.35 
+  12.42-50.06 52.24-50.06h40.42V6.26S293.3 
+  0 262.36 0c-73.22 0-121.08 44.38-121.08 
+  124.72v70.62H89.09V288h52.19v224h100.2V288z"/>
                 </svg>
                 Facebook
               </button>
               <button className="bg-red-600 text-white p-2 rounded flex items-center justify-center">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12.545 2.875c..."/>
+                   <path d="M488 261.8c0-17.8-1.6-35.1-4.7-51.8H249v98h135.6c-5.9 
+  31.6-23.7 58.4-50.3 76.3v63h81.3c47.6-43.9 
+  74.4-108.5 74.4-185.5zM249 492c67.2 0 
+  123.7-22.4 164.9-60.7l-81.3-63c-22.6 
+  15.2-51.4 24.1-83.6 24.1-64.3 0-118.8-43.4-138.4-101.7H28.1v64.2C69.4 
+  438.1 152.4 492 249 492zM110.6 302.6c-4.8-14.2-7.5-29.4-7.5-45s2.7-30.8 
+  7.5-45v-64.2H28.1C10.1 180.2 0 213.4 0 
+  257.6s10.1 77.4 28.1 109.2l82.5-64.2zM249 
+  100.4c35.7 0 67.7 12.3 92.9 36.3l69.6-69.6C372.6 
+  27.5 316.1 0 249 0 152.4 0 69.4 53.9 28.1 
+  132.2l82.5 64.2c19.6-58.3 74.1-101.7 
+  138.4-101.7z"/>
                 </svg>
                 Google
               </button>

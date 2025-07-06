@@ -126,3 +126,14 @@ Route::middleware('auth:sanctum')->group(function () {
     // Bạn có thể thêm các route khác yêu cầu xác thực ở đây
     // Route::post('/logout', [LoginController::class, 'logout']);
 });
+
+
+Route::get('/test-recommend', function () {
+    return 'Test route is working!';
+});
+Route::get('/test-recommend', function () {
+    return response()->json(['message' => 'Test OK']);
+});
+use App\Http\Controllers\Api\ProductApiController;
+
+Route::get('/home/recommend-by-category', [ProductApiController::class, 'recommendByCategory']);
